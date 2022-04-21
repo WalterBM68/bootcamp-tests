@@ -1,14 +1,14 @@
 describe("This is fromWhere function", function () {
-    it("Wow! you nailed it", function () {
+    it("Other towns registration number", function () {
       assert.equal('Some other place!' ,fromWhere("CC"));
     });
-    it("Wow! you nailed it", function () {
+    it("Bellville registration number", function () {
       assert.equal('Bellville' ,fromWhere("CY"));
     });
-    it("Wow! you nailed it", function () {
+    it("The city of Cape Town registration number", function () {
       assert.equal('Cape Town', fromWhere("CA"));
     });
-    it("Wow! you nailed it", function () {
+    it("Paarl registration number", function () {
         assert.equal('Paarl', fromWhere("CJ"));
     });
 });

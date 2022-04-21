@@ -1,14 +1,11 @@
 describe('This is greet function' , function(){
-    it('Well done! You got it' , function(){
-        assert.equal('Hello, Brazo' ,greet('Brazo'));
+    it('Greeting my first neighbour' , function(){
+        assert.equal('Hello, Retumetsi' ,greet('Retumetsi'));
     });
-    it('Well done! You got it' , function(){
-        assert.equal('Hello, Walter' ,greet('Walter'));
+    it('Greeting my second neighbour' , function(){
+        assert.equal('Hello, Morena' ,greet('Morena'));
     });
-    it('Well done! You got it' , function(){
-        assert.equal('Hello, Dean' ,greet('Dean'));
-    });
-    it('Well done! You got it' , function(){
-        assert.equal('Hello, Sipho' ,greet('Sipho'));
+    it('Greeting my neighbour who is on the back' , function(){
+        assert.equal('Hello, Kgotso' ,greet('Kgotso'));
     });
 });

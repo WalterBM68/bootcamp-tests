@@ -1,14 +1,14 @@
 describe("This isWeekday function", function () {
-  it("Hay! you nailed it", function () {
+  it("Return true since Monday is a week day", function () {
     assert.equal(true, isWeekday("Monday"));
   });
-  it("Hay! you nailed it", function () {
+  it("Return false because Saturday is not a week day", function () {
     assert.equal(false, isWeekday("Saturday"));
   });
-  it("Hay! you nailed it", function () {
+  it("Return true because Friday is a week day", function () {
     assert.equal(true, isWeekday("Friday"));
   });
-  it("Hay! you nailed it", function () {
+  it("Return false because Sunday is not a week day", function () {
     assert.equal(false, isWeekday("Sunday"));
   });
 });
