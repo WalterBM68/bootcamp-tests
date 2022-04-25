@@ -39,16 +39,13 @@ var salesData2 = [
 ];
 
 describe("The mostProfitableDepartment function", function () {
-  it("The most profitable department on the first Data sales", function () {
+  it("Should return the most profitable department on the first Data sales", function () {
     assert.equal('outdoor', mostProfitableDepartment(salesData));
   });
-  it("The most profitable department on the second Data sales", function () {
+  it("Should return the most profitable department on the second Data sales", function () {
     assert.equal('electronics', mostProfitableDepartment(salesData2));
   });
-  it("The most profitable day on the first Data sales", function () {
-    assert.equal('Thursday', mostProfitableDay(salesData));
-  });
-  it("The most profitable day on the second Data sales", function () {
-    assert.equal('Wednesday', mostProfitableDay(salesData2));
+  it("Should return 'Error' if the function is called with empty string", function () {
+    assert.equal('Error', mostProfitableDepartment(""));
   });
 });

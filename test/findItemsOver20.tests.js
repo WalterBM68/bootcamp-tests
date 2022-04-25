@@ -33,13 +33,13 @@ var results3 = [
 ];
 
 describe("This is findItemsOver20 function", function () {
-  it("products that have quantity higher than 20 on the first item list", function () {
+  it("Should return products that have quantity higher than 20 on the first item list", function () {
     assert.deepEqual([{name : 'pears', qty : 37},{name : 'bananas', qty : 27}] ,findItemsOver20(itemList));
   });
-  it("products that have quantity higher than 20 on the second item list", function () {
+  it("Should return products that have quantity higher than 20 on the second item list", function () {
     assert.deepEqual([] ,findItemsOver20(itemList2));
   });
-  it("products that have quantity higher than 20 on the third item list", function () {
+  it("Should return products that have quantity higher than 20 on the third item list", function () {
     assert.deepEqual([{name : 'apples', qty : 40},{name : 'bananas', qty : 23},{name : 'apples', qty : 37}], findItemsOver20(itemList3));
   });
 });
